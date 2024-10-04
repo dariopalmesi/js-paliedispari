@@ -6,13 +6,17 @@
 let giocatore 
 giocatore = prompt('scegli un numero da 1 a 5')
 
+let cpu = getRndInteger
+
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min) ) + min;
   }
   console.log(getRndInteger(1,6));
    
+function sum_pari_dispari(num_1, num_2) {
+    const sum = num_1 + num_2;
+    return sum
+}
+const result = sum_pari_dispari(giocatore, cpu)
+console.log(result);
 
-//   for (let i = 0; i < 10; i++) {
-//     let randomNumber = getRndInteger(1,100)
-//     console.log(randomNumber);
-//   }
