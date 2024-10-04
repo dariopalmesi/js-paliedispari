@@ -6,7 +6,6 @@ let works
 works = prompt('inserisci una parola')
 
 function log_user_promt(str) {
-    
     console.log(str);
     
     return str == str.split('').reverse().join('');
@@ -14,4 +13,4 @@ function log_user_promt(str) {
 
 }
 
-log_user_promt(str)
+log_user_promt('è palindromo')
