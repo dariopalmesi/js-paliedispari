@@ -13,4 +13,12 @@ function log_user_promt(str) {
 
 }
 
-log_user_promt('è palindromo')
+log_user_promt(works)
+
+if (works == str) {
+    console.log('è palindromo');
+    
+}else {
+    console.log('non è palindromo');
+    
+}
