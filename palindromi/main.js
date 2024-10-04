@@ -6,19 +6,21 @@ let works
 works = prompt('inserisci una parola')
 
 function log_user_promt(str) {
+
     console.log(str);
     
     return str == str.split('').reverse().join('');
 
 
 }
-
+ 
 log_user_promt(works)
 
-if (works == str) {
-    console.log('è palindromo');
+const userWorks = log_user_promt
+
+ if (works === userWorks) {
+     console.log('è palindromo');
     
-}else {
-    console.log('non è palindromo');
-    
-}
+ }else {
+     console.log('non è palindromo');
+     }
